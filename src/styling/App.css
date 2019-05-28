@@ -2,6 +2,7 @@
   text-align: center;
   background-color: #282c34;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 .ui.inverted.pointing.secondary.menu {
@@ -36,4 +37,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+
+.TestDiv1 {
+  background-color: aqua;
+  height: 1200px;
+  width: 200vw;
+  transform: rotate(7deg);
+  transform-origin: 0% -80%;
+  padding: 20px;
+  z-index: 1;
+}
+
+.TestDiv2 {
+  background-color:green;
+  height: 500px;
+  width: 200vw;
+  transform: rotate(-7deg);
+  transform-origin: 0% 600%;
+  z-index: 2;
+}
+
+.sub-text {
+  transform: rotate(-7deg);
 }
