@@ -16,7 +16,7 @@ class Navbar extends Component {
 
     render() {
         return (
-            <Menu>
+            <Menu inverted pointing secondary >
                 <Menu.Item 
                     active={this.state.activeItem === 'Option 1'}
                     onClick={() => this.changeActiveItem('Option 1')}
