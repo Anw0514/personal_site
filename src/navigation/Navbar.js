@@ -10,8 +10,9 @@ class Navbar extends Component {
         }
     }
 
-    changeActiveItem = (string) => {
+    changeActiveItem = (string, scrollNumber) => {
         this.setState({activeItem: string})
+        window.scrollTo({top: 1000, behavior: 'smooth'})
     }
 
     render() {

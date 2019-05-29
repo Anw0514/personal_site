@@ -44,7 +44,6 @@
 
 .TestDiv1 {
   background-color: aqua;
-  height: 1200px;
   width: 200vw;
   transform: rotate(7deg);
   transform-origin: 0% -80%;
@@ -63,14 +62,21 @@
 
 .sub-text {
   transform: rotate(-7deg);
-  transform-origin: 0% -92%;
+  transform-origin: 0% -203%;
   height: 100%;
+  width: 100vw;
+}
+
+.sub-img {
+  transform: rotate(-7deg);
+  transform-origin: 0% -203%;
+  height: 100px;
   width: 100vw;
 }
 
 .sub-header {
   transform: rotate(-7deg);
-  transform-origin: 0% -1002%;
+  transform-origin: 0% -500%;
   text-align: initial;
   font-size: 6em;
 }
