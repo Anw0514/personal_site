@@ -48,7 +48,7 @@
   width: 200vw;
   transform: rotate(7deg);
   transform-origin: 0% -80%;
-  padding: 20px;
+  padding-top: 20px;
   z-index: 1;
 }
 
@@ -63,4 +63,14 @@
 
 .sub-text {
   transform: rotate(-7deg);
+  transform-origin: 0% -92%;
+  height: 100%;
+  width: 100vw;
+}
+
+.sub-header {
+  transform: rotate(-7deg);
+  transform-origin: 0% -1002%;
+  text-align: initial;
+  font-size: 6em;
 }
