@@ -18,22 +18,28 @@ class Navbar extends Component {
         return (
             <Menu inverted pointing secondary >
                 <Menu.Item 
-                    active={this.state.activeItem === 'Option 1'}
-                    onClick={() => this.changeActiveItem('Option 1')}
+                    active={this.state.activeItem === 'About'}
+                    onClick={() => this.changeActiveItem('About')}
                 >
-                    Option 1
+                    About
                 </Menu.Item>
                 <Menu.Item 
-                    active={this.state.activeItem === 'Option 2'}
-                    onClick={() => this.changeActiveItem('Option 2')}
+                    active={this.state.activeItem === 'Skills'}
+                    onClick={() => this.changeActiveItem('Skills')}
                 >
-                    Option 2
+                    Skills
                 </Menu.Item>
                 <Menu.Item 
-                    active={this.state.activeItem === 'Option 3'}
-                    onClick={() => this.changeActiveItem('Option 3')}
+                    active={this.state.activeItem === 'Projects'}
+                    onClick={() => this.changeActiveItem('Projects')}
                 >
-                    Option 3
+                    Projects
+                </Menu.Item>
+                <Menu.Item
+                    active={this.state.activeItem === 'Games'}
+                    onClick={() => this.changeActiveItem('Games')}
+                >
+                    Games
                 </Menu.Item>
             </Menu>
         )
