@@ -36,10 +36,10 @@ class Navbar extends Component {
                     Projects
                 </Menu.Item>
                 <Menu.Item
-                    active={this.state.activeItem === 'Games'}
-                    onClick={() => this.changeActiveItem('Games')}
+                    active={this.state.activeItem === 'Mini Games'}
+                    onClick={() => this.changeActiveItem('Mini Games')}
                 >
-                    Games
+                    Mini Games
                 </Menu.Item>
             </Menu>
         )
